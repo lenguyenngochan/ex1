@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("bg-body.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.left {
+    float: left;
+    width: 440px;
+}
+
+.mid {
+    float: left;
+    width: 704px;
+}
+
+.right {
+    float: left;
+    width: 300px;
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both; 
+}
+
+.header {
+    background-image: url("bg-header.jpg");
+    text-align: left;
+    align-self: center;
+    color: rgb(110, 108, 108);
+    padding: 50px;
+    font-size: 25px;
+    font-style: italic;
+}
+
+.topnav {
+    background-image: url("bg-menu.png");
+}
+
+.topnav a {
+    color: white;
+    text-decoration: dashed;
+    text-align: justify;
+    margin-left: 30px;
+}
+
+.col1 {
+    float: left;
+    text-align: justify;
+    width: 475px;
+}
+
+h1 {
+    color: rgb(129, 129, 3);
+}
+
+b {
+    font-size: small;
+    color: rgb(159, 159, 155);
+}
+
+.col2 {
+    float: left;
+    width: 229px;
+}
+
+.abc {
+    float: right;
+    width: 200px;
+    background-color: rgb(214, 213, 213);
+    text-align:justify;
+}
+
+.abc p {
+    text-indent: 20px;
+    text-align: justify;
+}
+
+.empty {
+    height: 10px;
+}
+
+.img {
+    width: 145px;
+    height: 25px;
+    float:right;
+    background-image: url("bg-feed.gif");
+    text-align: center;
+}
+
+.img img {
+    width: 80px;
+    height: 20px;
+}
+
+.cmt {
+    float: none;
+    color: rgb(96, 234, 222);
+}
+
+.footer {
+    color: white;
+    text-align: left;
+    background-image: url("bg-footer.jpg");
+    padding: 50px;
+    background-repeat: no-repeat;
+}
